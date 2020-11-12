@@ -26,7 +26,7 @@
 </header>
 
 <div class="container">
-<form action="Update.php" method="post">
+<form action="../../metodos/editar/Update.php" method="post">
 <div class="form-group">
   <div class="input-group">
     <div class="input-group-prepend">

@@ -31,7 +31,7 @@
 
 <div class="col"> 
 
-<form action="Add.php" method="post">
+<form action="../../metodos/agregar/Add.php" method="post">
 <div class="form-group">
   <div class="input-group">
     <div class="input-group-prepend">
