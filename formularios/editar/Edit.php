@@ -34,46 +34,9 @@
         <i class="fas fa-user-circle"></i>
       </div>
     </div>
-    <input class="form-control" placeholder="Nombre" name="nombre" value="<?php echo $editData['nombre'];?>" type="text">
+    <input class="form-control" placeholder="Monto" name="monto" type="number" value="<?php echo $editData['nombre'];?>">
   </div>
 </div>
-
-<div class="form-group">
-  <div class="input-group">
-    <div class="input-group-prepend">
-      <div class="input-group-text bg-white">
-        <i class="fas fa-user-circle"></i>
-      </div>
-    </div>
-    <input class="form-control" placeholder="Apellido" name="apellido" value="<?php echo $editData['apellido'];?>" type="text">
-  </div>
-</div>
-
-<!-- <div class="form-group">
-<label>Status</label>
-<?php 
-					if($editData['status'] == "Activo"){
-				 ?>
-                 <input type="radio" checked="checked" name="status" value="Activo"> Activo 
-				<?php 
-					}else{
-				 ?>
-				 <input type="radio" name="status" value="Activo"> Activo 
-				 <?php 
-					}
-				  ?>
-				  <?php 
-				  if($editData['status'] == "Inactivo"){
-				   ?>
-				<input type="radio" checked="checked" name="status" value="Inactivo"> Inactivo
-				<?php 
-				  }else{
-				 ?>
-				 <input type="radio" name="status" value="Inactivo"> Inactivo
-				 <?php 
-				  }
-				  ?>
-</div> -->
 
 <div class="form-group">
   <div class="input-group">
@@ -82,7 +45,7 @@
         <i class="fas fa-university"></i>
       </div>
     </div>
-    <input class="form-control" name="carrera" placeholder="Carrera" value="<?php echo $editData['carrera'];?>" type="text">
+    <input class="form-control" placeholder="Descripción" name="descripcion" type="text" value="<?php echo $editData['nombre'];?>">
   </div>
 </div>
 <div class="row">

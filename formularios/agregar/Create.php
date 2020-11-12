@@ -39,24 +39,8 @@
         <i class="fas fa-user-circle"></i>
       </div>
     </div>
-    <input class="form-control" placeholder="Nombre" name="nombre" type="text">
+    <input class="form-control" placeholder="Monto" name="monto" type="number">
   </div>
-</div>
-
-<div class="form-group">
-  <div class="input-group">
-    <div class="input-group-prepend">
-      <div class="input-group-text bg-white">
-        <i class="fas fa-user-circle"></i>
-      </div>
-    </div>
-    <input class="form-control" placeholder="Apellido" name="apellido" type="text">
-  </div>
-</div>
-
-<div class="form-group">  
-  <input type="radio" name="status" value="Activo"> Activo 
-	<input type="radio" name="status" value="Inactivo"> Inactivo
 </div>
 
 <div class="form-group">
@@ -66,7 +50,7 @@
         <i class="fas fa-university"></i>
       </div>
     </div>
-    <input class="form-control" name="carrera" placeholder="Carrera" type="text">
+    <input class="form-control" placeholder="Descripción" name="descripcion" type="text">
   </div>
 </div>
 <div class="row">
