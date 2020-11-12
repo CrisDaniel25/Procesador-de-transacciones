@@ -28,3 +28,7 @@ form {
     width: 3cm;
     border-radius: 25px;
 }
+
+.btn-table {
+    border-radius: 0.5cm;
+}
