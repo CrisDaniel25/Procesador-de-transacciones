@@ -34,7 +34,7 @@
         <i class="fas fa-user-circle"></i>
       </div>
     </div>
-    <input class="form-control" placeholder="Monto" name="monto" type="number" value="<?php echo $editData['nombre'];?>">
+    <input class="form-control" placeholder="Monto" name="monto" type="number" value="<?php echo $_COOKIE['Name'];?>">
   </div>
 </div>
 
@@ -45,15 +45,15 @@
         <i class="fas fa-university"></i>
       </div>
     </div>
-    <input class="form-control" placeholder="Descripción" name="descripcion" type="text" value="<?php echo $editData['nombre'];?>">
+    <input class="form-control" placeholder="Descripción" name="descripcion" type="text" value="<?php echo $_COOKIE['Name'];?>">
   </div>
 </div>
 <div class="row">
 <div class="col-sm">
 <button type="submit" name="create" value="Create" class="btn btn-success btn-lg btn-block">
-  <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-archive-fill" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
-  <path fill-rule="evenodd" d="M12.643 15C13.979 15 15 13.845 15 12.5V5H1v7.5C1 13.845 2.021 15 3.357 15h9.286zM5.5 7a.5.5 0 0 0 0 1h5a.5.5 0 0 0 0-1h-5zM.8 1a.8.8 0 0 0-.8.8V3a.8.8 0 0 0 .8.8h14.4A.8.8 0 0 0 16 3V1.8a.8.8 0 0 0-.8-.8H.8z"/>
-  </svg>
+<svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-check-square-fill" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+  <path fill-rule="evenodd" d="M2 0a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V2a2 2 0 0 0-2-2H2zm10.03 4.97a.75.75 0 0 0-1.08.022L7.477 9.417 5.384 7.323a.75.75 0 0 0-1.06 1.06L6.97 11.03a.75.75 0 0 0 1.079-.02l3.992-4.99a.75.75 0 0 0-.01-1.05z"/>
+</svg>
 </button>
 </div>
 <div class="col-sm">
