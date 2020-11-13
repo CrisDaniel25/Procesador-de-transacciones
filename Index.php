@@ -38,7 +38,7 @@
             </thead>
             <tbody>
              <tr>
-			    <td><?php echo $_COOKIE["descripcion"];?></td>
+			    <td><?php echo $_COOKIE["Name"];?></td>
 			    <td><?php echo $_COOKIE["Apellido"];?></td>
 			    <td><?php echo $_COOKIE["Status"];?></td>
 			    <td><?php echo $_COOKIE["Carrera"];?></td>
